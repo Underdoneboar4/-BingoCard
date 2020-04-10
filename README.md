@@ -1,6 +1,6 @@
-# Rush-Hour
-A small project
+# Bingo-Card
+A smaller project
 
-Created by Blake Branvold and Varun Saini
+Created by Blake Branvold
 
-Rush Hour, based on the popular board game of the same name, is a simple app that is still in its early stages of development. The end goal for Rush Hour is to have an electronic version of the board game that is fully functional.
+Using the existing Rush Hour project, this auto-generates a bingo card. Images do not work yet, but it prints values
