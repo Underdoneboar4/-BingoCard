@@ -70,6 +70,16 @@ class ViewController: UIViewController {
     }
     @IBAction func shuffleButtonPressed(_ sender: Any) {
     
+        assignB()
+        print()
+        assignI()
+        print()
+        assignN()
+        print()
+        assignG()
+        print()
+        assignO()
+        
     }
     func assignNum(forbidden: [Int]) -> Int{
         var random = Int.random(in: 0 ..< 15)
@@ -88,120 +98,139 @@ class ViewController: UIViewController {
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
         print(BChoices[index])
-        x1y1.image = UIImage(named: "\(BChoices[index])")
+//        x1y1.image = UIImage(named: "\(BChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
         print(BChoices[index])
-        x1y2.image = UIImage(named: "\(index)")
+//       x1y2.image = UIImage(named: "\(BChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
         print(BChoices[index])
-        x1y3.image = UIImage(named: "\(index)")
+//       x1y3.image = UIImage(named: "\(BChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
         print(BChoices[index])
-        x1y4.image = UIImage(named: "\(index)")
+//        x1y4.image = UIImage(named: "\(BChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
         print(BChoices[index])
-        x1y5.image = UIImage(named: "\(index)")
+//        x1y5.image = UIImage(named: "\(BChoices[index])")
     }
     
     func assignI(){
         forbidden = []
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        print(GChoices[index])
-        x2y1.image = UIImage(named: "\(index)")
+        print(IChoices[index])
+//        x2y1.image = UIImage(named: "\(IChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x2y2.image = UIImage(named: "\(index)")
+        print(IChoices[index])
+//        x2y2.image = UIImage(named: "\(IChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x2y3.image = UIImage(named: "\(index)")
+        print(IChoices[index])
+//        x2y3.image = UIImage(named: "\(IChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x2y4.image = UIImage(named: "\(index)")
+        print(IChoices[index])
+//        x2y4.image = UIImage(named: "\(IChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x2y5.image = UIImage(named: "\(index)")
+        print(IChoices[index])
+//        x2y5.image = UIImage(named: "\(IChoices[index])")
     }
     
     func assignN(){
         forbidden = []
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x3y1.image = UIImage(named: "\(index)")
+        print(NChoices[index])
+//        x3y1.image = UIImage(named: "\(NChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x3y2.image = UIImage(named: "\(index)")
+        print(NChoices[index])
+//        x3y2.image = UIImage(named: "\(NChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x3y3.image = UIImage(named: "\(index)")
+        print(NChoices[index])
+//        x3y3.image = UIImage(named: "\(NChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x3y4.image = UIImage(named: "\(index)")
+        print(NChoices[index])
+//        x3y4.image = UIImage(named: "\(NChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x3y5.image = UIImage(named: "\(index)")
+        print(NChoices[index])
+//        x3y5.image = UIImage(named: "\(NChoices[index])")
     }
     
     func assignG(){
         forbidden = []
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x4y1.image = UIImage(named: "\(index)")
+        print(GChoices[index])
+//        x4y1.image = UIImage(named: "\(GChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x4y2.image = UIImage(named: "\(index)")
+        print(GChoices[index])
+//        x4y2.image = UIImage(named: "\(GChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x4y3.image = UIImage(named: "\(index)")
+        print(GChoices[index])
+//        x4y3.image = UIImage(named: "\(GChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x4y4.image = UIImage(named: "\(index)")
+        print(GChoices[index])
+//        x4y4.image = UIImage(named: "\(GChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x4y5.image = UIImage(named: "\(index)")
+        print(GChoices[index])
+//        x4y5.image = UIImage(named: "\(GChoices[index])")
     }
     
     func assignO(){
         forbidden = []
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x5y1.image = UIImage(named: "\(index)")
+        print(OChoices[index])
+//        x5y1.image = UIImage(named: "\(OChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x5y2.image = UIImage(named: "\(index)")
+        print(OChoices[index])
+//        x5y2.image = UIImage(named: "\(OChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x5y3.image = UIImage(named: "\(index)")
+        print(OChoices[index])
+//        x5y3.image = UIImage(named: "\(OChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x5y4.image = UIImage(named: "\(index)")
+        print(OChoices[index])
+//        x5y4.image = UIImage(named: "\(OChoices[index])")
 
         index = assignNum(forbidden: forbidden)
         forbidden.append(index)
-        x5y5.image = UIImage(named: "\(index)")
+        print(OChoices[index])
+//        x5y5.image = UIImage(named: "\(OChoices[index])")
     }
     
 }
